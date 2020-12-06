@@ -1,0 +1,79 @@
+/*=====共通エリア=====*/
+.warning {
+  font-size: 14px;
+  color: red;
+}
+.clear {
+    clear: left;
+  }
+
+.btn {
+  padding: 5px 30px 5px 30px ;
+  margin:30px 0 0 170px;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+/*=====headerエリア=====*/
+header {
+    width:100%;
+    height:50px;
+    background-color:#1F52B0;
+  }
+  header ul {display: flex; max-width: 1170px;}
+  header ul li {flex: auto;}
+  header ul li.icon {
+    font-size:20px;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 13px 0 13px 0;
+    float: left;
+  }
+  header ul li.item-link {
+    text-align: center;
+    padding: 17px 0 16px 0;
+    border-left: 1px solid #FFFFFF;
+  }
+  header ul li.item-link a {
+  /*display要素でリンク範囲を広げる*/
+    font-size: 14px;
+    font-weight:bold;
+    color: #FFFFFF;
+    text-decoration: none; 
+    display: block;
+  }
+  header ul li.item-link a:hover {opacity: 0.7;}
+
+/*=====contact領域=====*/
+.contact {width: 100%;}
+.contact .container {margin:30px;}
+.contact .title {
+  width:95%;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.7;
+  border-bottom: solid 3px rebeccapurple;
+  display: inline-block;
+}
+.contact .sub-title {
+  font-size:14px;
+  padding-top:10px;
+}
+
+.user-form {
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 0.7;
+  margin-top:30px
+}
+.user-form p {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.user-form .form {
+  width: 300px;
+  height: auto;
+  border: 2px solid gray;
+}

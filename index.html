@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>プロフィール</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!--header領域-->
+  <header>
+    <ul class="menu">
+      <li class="icon">> MyProfile</li>
+      <li class="item-link"><a href="index.html#">ホーム</a></li>
+      <li class="item-link"><a href="index.html#skills">スキル</a></li>
+      <li class="item-link"><a href="index.html#services">サービス</a></li>
+      <li class="item-link"><a href="index.html#plans">プラン</a></li>
+      <li class="item-link"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </header>
+  <div class="top">
+    <p class="site-title">ポートフォリオサイト</p>
+    <p class="message">〜確実な技術力でお客様の課題を解決致します〜</p>
+  </div>
+  <div class="contents">
+    <p id="skills" class="title">対応スキル一覧</p>
+    <div class="skills">
+      <div class="skill">
+        <p class="skill-title">HTML & CSS</p>
+        <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element"><img src="picture/html5.png"></a>
+        <p class="explain">Webサイトを制作する為のマークアップ言語。HTMLで文章の構造、CSSでレイアウトの構造を調整してWebサイトの制作が可能です。</p>
+      </div>
+      <div class="skill">
+        <p class="skill-title">BootStrap</p>
+        <a href="https://getbootstrap.jp/"><img src="picture/bootstrap.png"></a>
+        <p class="explain">Twitter社が開発したCSSフレームワーク。従来のCSSコーディングよりモダンなWebサイトの制作が可能になります。</p>
+      </div>
+      <div class="skill">
+        <p class="skill-title">Javascript</p>
+        <a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference"><img src="picture/javascript.png"></a>
+        <p class="explain">動的なWebサイトを制作するにあたって必要なプログラミング言語。更にJQueryなどのライブラリを利用してブラウザに依存しないWebサイト制作が可能になります。</p>
+      </div>
+      <div class="skill">
+        <p class="skill-title">WordPress</p>
+        <a href="https://ja.wordpress.org/download/"><img src="picture/wordpress.jpg"></a>
+        <p class="explain">全世界のWebサイトの3割以上に利用されているCMS。プラグインを利用してモダンなサイトや動的なサイトの制作まで提供する事が可能になります。</p>
+      </div>
+      <div class="skill">
+        <p class="skill-title">PHP</p>
+        <a href="https://www.php.net/manual/ja/index.php"><img src="picture/php.png"></a>
+        <p class="explain">掲示板や問い合わせフォームなどに利用されるサーバサイドプログラミング言語。WordPressのプラグインもPHPで作成されている為、独自にテンプレートをカスタマイズを行う事も可能です。</p>
+      </div>
+      <div class="skill">
+        <p class="skill-title">MySQL</p>
+        <a href="https://www.mysql.com/jp/"><img src="picture/mysql.png"></a>
+        <p class="explain">データを蓄積・管理するリレーショナルデータベース管理システム。</p>
+      </div>
+      <div class="skill">
+        <p class="skill-title">Linux</p>
+        <a href="https://www.centos.org/"><img src="picture/Linux.png"></a>
+        <p class="explain">Webサイトの土台となるWebサーバやメールの送受信に必要になるメールサーバを構築する際に利用するOS。日本ではCentOSをメインにUbuntuなども利用されています。</p>
+      </div>
+      <div class="skill">
+        <p class="skill-title">AWS</p>
+        <a href="https://aws.amazon.com/jp/"><img src="picture/aws.jpg"></a>
+        <p class="explain">アマゾン社が提供するクラウドサービス。オンプレミスに囚われずクラウド上で自在にインフラ基盤の提供を行う事が可能です。</p>
+      </div>
+    </div>
+  </div>
+  <div class="services">
+    <p id="services" class="title">提供サービス一覧</p>
+    <div class="service"> 
+      <img src="picture/computer.jpg">
+      <p class="service-title">WEBサイト制作</p>
+      <p class="service-explain">ご要望となるHTML・CSSコーディング・Javascript・WordPressを利用したWebサイト制作を行います。またメンテナンスのし易い可読性の高いコーディングやSEO対策に至るまでプロフェッショナルとしてしっかりと責任を持って対応させて頂きます。</p>
+    </div>
+    <div class="clear"></div>
+    <div class="service"> 
+      <img src="picture/server.jpg">
+      <p class="service-title">インフラ構築</p>
+      <p class="service-explain">レンタルサーバ・VPS・クラウドサービスを利用してお客様が望むインフラ環境を構築致します。</p>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="container">
+    <p id="plans" class="title">提供プラン一覧</p>
+    <div class="plans">
+      <div class="plan">
+        <p class="plan-title">Webサイト制作プラン</p>
+        <p class="plan-explain">既にサーバ・ドメインを取得しており、Webサイト制作をご希望の方はこちらのプランになります。お客様のご要望に沿ったWebサイト制作をプロフェショナルとして責任を持って対応させて頂きます。またフロントエンドに限らずバックエンド処理にも対応致しますので、ご遠慮なくお問い合わせ下さい。</p>
+      </div>
+      <div class="plan">
+        <p class="plan-title">インフラ構築プラン</p>
+        <p class="plan-explain">Web制作は他の人に依頼する物の、必要なサーバの調達などのインフラ構築・保守をご希望の方はこちらのプランになります。お客様のご希望に沿った信頼性のあるインフラ提供をプロフェショナルとして責任を持って対応させて頂きます。</p>
+      </div>
+      <div class="plan">
+        <p class="plan-title">全てお任せプラン</p>
+        <p class="plan-explain">Webサイトを動作させるにあたって必要なインフラの構築からWeb制作まで一貫して対応をご希望の方はこちらのプランになります。基本的にお客様の要望に応じてこちら側で全ての制作を対応致しますので、ご安心してご利用頂けるプランとなっております。</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

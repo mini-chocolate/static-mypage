@@ -1,0 +1,159 @@
+/*=====共通エリア=====*/
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.7;
+  text-align: center;
+  margin-top:30px;
+}
+.explain {
+  text-align: center;
+  color: #b3aeb5;
+  padding:10px 20px 20px 20px;
+}
+.service-explain {
+  font-size: 13px;
+  color: #000033;
+}
+
+.plan-explain {
+  font-size: 13px;
+  color: #000033;
+  opacity: 0.7;
+  padding: 0 30px 0 30px;
+}
+
+.clear {
+  clear: left;
+}
+
+/*=====headerエリア=====*/
+header {
+  width:100%;
+  height:50px;
+  background-color:#1F52B0;
+}
+header ul {display: flex; max-width: 1170px;}
+header ul li {flex: auto;}
+header ul li.icon {
+  font-size:20px;
+  color:#FFFFFF;
+  text-align: center;
+  padding: 13px 0 13px 0;
+  float: left;
+}
+header ul li.item-link {
+  text-align: center;
+  padding: 17px 0 16px 0;
+  border-left: 1px solid #FFFFFF;
+}
+header ul li.item-link a {
+/*display要素でリンク範囲を広げる*/
+  font-size: 14px;
+  font-weight:bold;
+  color: #FFFFFF;
+  text-decoration: none; 
+  display: block;
+}
+header ul li.item-link a:hover {opacity: 0.7;}
+
+/*=====top領域=====*/
+.top {
+  width:100%;
+  height:300px;
+  background-image: url("picture/top-picture.png");
+  background-size: cover;
+}
+
+.top .site-title {
+  font-size:30px;
+  font-weight:bold;
+  color:#FFFFFF;
+  opacity:0.5;
+  padding: 20px 0 0 20px;
+}
+
+.top .message {
+  font-size: 16px;
+  font-weight:bold;
+  color:#FFFFFF;
+  opacity:0.5;
+  padding: 15px 0 0 5px;
+}
+
+/*=====contents領域=====*/
+.contents {
+  height:auto;
+  padding-top: 30px;
+  background-color: #EEEEEE;
+}
+.contents .skills {
+  width: 100%;
+  margin-top:50px;
+  display: flex;
+  flex-wrap: wrap
+}
+.contents .skills .skill {
+  width:25%;
+  font-size: 12px;
+  text-align:center;
+  float:left;
+  flex:auto;
+}
+.contents .skills .skill-title {
+  font-size:14px;
+  font-weight: bold;
+}
+.contents .skills .skill img {
+  width:120px;
+  height:120px;
+  padding-top:10px;
+  border-radius:50%;
+}
+
+/*=====services領域=====*/
+.services {
+  height: auto;
+  padding-top: 30px;
+  background-color: #EEFFFF;
+}
+.services .service {
+  width: 100%;
+}
+.services .service img {
+  width:350px;
+  height:150px;
+  margin: 30px 60px 0 30px;
+  border: solid 2px gray;
+  float: left;
+}
+.services .service .service-title {
+  font-size:14px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: double 2px green;
+  margin:30px 0 10px 0;
+}
+
+/*=====plans領域=====*/
+.container {
+  width: 100%;
+  height: auto;
+}
+.plans {
+  display: flex;
+  flex-wrap: wrap
+}
+.plans .plan {
+  width: 33%;
+  text-align: center;
+  float:left;
+  flex:auto;
+  box-sizing: border-box;
+  padding: 30px 20px 10px 20px;
+}
+.plans .plan .plan-title {
+  font-size:14px;
+  font-weight: bold;
+  margin: 30px 0 10px 0;
+}
