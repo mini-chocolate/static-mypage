@@ -1,0 +1,40 @@
+/*headerエリア*/
+@media screen and (max-width:767px) {
+  /*
+  header ul li.icon {text-align: left; padding-left: 30px;}
+  header ul li.item-link {display: none;}
+  */
+
+.contents .skills .skill {
+  width:100%;
+  font-size: 14px;
+  text-align:center;
+  float:left;
+  flex:auto;
+}
+.services .service {
+  width: 100%;
+}
+.services .service img {
+  width: 60%;
+  margin-left:20%;
+  margin-right:20%;
+  height:150px;
+  border: solid 2px gray;
+  float: none;
+}
+.services .service .service-title {
+  text-align: center;
+  display: block;
+  margin:10px 20% 0 20%;
+}
+.services .service .service-explain{
+  text-align: center;
+  padding:10px 20px 20px 20px;
+}
+
+.plans .plan {
+  width: 100%;
+}
+
+}
