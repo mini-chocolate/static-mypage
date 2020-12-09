@@ -1,19 +1,31 @@
 /*headerエリア*/
 @media screen and (max-width:768px) {
   
-  header {
-    width:100%;
-    height:50px;
-    background-color:#1F52B0;
-  }
+header {
+  width:100%;
+  height:50px;
+  background-color:#1F52B0;
+}
 
-  header ul li.icon {
-    text-align: left;
-    padding-left: 32px;
-  }
+header ul li.icon {
+  text-align: left;
+  padding-left: 5%;
+}
 
-  header ul li.item-link {display: none;}
+header ul li.item-link {display: none;}
   
+header ul div.mobile-link{
+  font-size: 25px;
+  color: white;
+  padding:12px;
+  display: inline-block;
+}
+
+.top {
+  max-width: 100%;
+  background-image: url("picture/top-picture-mini.png");
+  background-size: cover;
+}  
 
 .contents .skills .skill {
   width:100%;

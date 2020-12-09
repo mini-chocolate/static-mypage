@@ -39,10 +39,10 @@ header ul li {flex: auto;}
 header ul li.icon {
   font-size:20px;
   color:#FFFFFF;
-  text-align: center;
-  padding: 13px 0 13px 0;
+  padding: 13px 0 13px 5%;
   float: left;
 }
+
 header ul li.item-link {
   text-align: center;
   padding: 17px 0 16px 0;
@@ -57,6 +57,7 @@ header ul li.item-link a {
   display: block;
 }
 header ul li.item-link a:hover {opacity: 0.7;}
+header ul div.mobile-link{display: none;}
 
 /*=====top領域=====*/
 .top {
