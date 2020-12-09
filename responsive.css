@@ -8,9 +8,8 @@
   }
 
   header ul li.icon {
-    font-size: 18px;
-    text-align: left; 
-    padding: 13px 0 0 13px;
+    text-align: left;
+    padding-left: 32px;
   }
 
   header ul li.item-link {display: none;}
