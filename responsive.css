@@ -22,10 +22,11 @@ header ul div.mobile-link{
 }
 
 .top {
-  max-width: 100%;
-  background-image: url("picture/top-picture-mini.png");
-  background-size: cover;
+  background-size: 100% 100%;
 }  
+.top .site-title {font-size: 20px;}
+.top .message {font-size: 14px;}
+
 
 .contents .skills .skill {
   width:100%;
